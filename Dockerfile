@@ -1,6 +1,6 @@
 FROM python:3.9-bullseye
 
-RUN apt-get update -qq && apt-get -y install ffmpeg
+RUN apt-get update -qq && apt-get install -y ffmpeg
 
 WORKDIR /usr/src/app
 
